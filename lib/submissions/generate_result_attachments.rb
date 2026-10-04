@@ -1043,7 +1043,7 @@ module Submissions
     end
 
     def info_creator
-      "#{Docuseal.product_name} (#{Docuseal::PRODUCT_URL})"
+      "#{Docuseal::PRODUCT_NAME} (#{Docuseal::PRODUCT_URL})"
     end
 
     def detached_signature?(_submitter)
